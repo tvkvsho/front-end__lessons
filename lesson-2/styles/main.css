@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+}
+
+aside{
+    display: block;
+    float: left;
+    background-color: #1E2939;
+}
+
+main {
+    display: block;
+    float: left;
+    padding: 102px 0 0 88px;
+}
+
+.summary{
+    color: white;
+}
+
+.summary__contacts {
+    padding: 51px 0 0 40px;
+}
+
+.summary__contact b {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 10px 0 0;
+    color: #FFFFFF;
+}
+
+.summary__unorderedlist{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 0 17px;
+    padding: 8px 0 0 0;
+
+
+    color: #FFFFFF;
+}
+
+.summary__unorderedlist li{
+    padding: 0 0 0 0;
+}
+
+.summary__unorderedlist li::marker{
+    width: 6px;
+    color: #FB6D3A;
+}
+
+.grey-contacts{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+}
+
+.grey-contacts a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.summary__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.summary__techskills{
+    padding: 51px 0 0 40px;
+}
+
+.summary__softskills{
+    padding: 51px 0 0 40px;
+}
+
+.projects__orderedlist::marker{
+    font-weight: bold;
+}
+
+.summary__pic {
+    margin: 40px 0 0 0;
+}
+
+.maininfo__projects{
+    max-width: 485px;
+}
+
+.projects__orderedlist{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 8px 0 0 0;
+    margin: 0 0 0 17px;
+
+    color: #595959;
+}
+
+.projects__orderedlist li{
+    padding: 0 0 0 8px;
+}
+
+.projects__orderedlist li b{
+    color: #000000;
+}
+
+.projects__orderedlist li::marker{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #000000;
+}
+
+p.about__role{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    padding: 19px 0 0 0;
+    color: #000000;
+}
+
+.about__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 24px 0 0 0;
+
+
+    color: #595959;
+}
+
+.maininfo__about{
+    max-width: 443px;
+}
+
+.maininfo__projects{
+    max-width: 485px;
+    padding: 64px 0 0 0;
+}
+
+.maininfo__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.maininfo__experience{
+    max-width: 525px;
+    padding: 51px 0 0 0;
+}
+
+.maininfo__positiontitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 0 0 0;
+    color: #000000;
+}
+
+.orange-text{
+    color: #FB6D3A;
+}
+
+.maininfo__date{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 11px 0 0 0;
+    color: #A8A8A8;
+}
+
+.experience__duties{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 0 16px;
+    padding: 8px 0 8px 0;
+
+    color: #595959;
+}
+
+.experience__duties li::marker{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #595959;
+}
+
+.maininfo__education{
+    padding: 43px 0 107px 0;
+}
+
+.education__course{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 11px 0 0 0;
+    color: #000000;
+}
