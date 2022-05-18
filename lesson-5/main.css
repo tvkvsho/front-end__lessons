@@ -1,0 +1,28 @@
+.box{
+    padding: 20px;
+    background: blue;
+    margin-bottom: 40px;
+}
+
+.box > .box__item{
+    background: red;
+}
+
+.box > h2 {
+    color: green;
+}
+
+
+.box-two{
+    background: blue;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.box + .box-two {
+    background: #0000;
+}
+
+.box ~ .box-two{
+    background: green;
+}

@@ -88,8 +88,30 @@
     width: 480px;
 }
 
+.about-me__text{
+    transition: all 0.3s;
+}
+
+.about-me__text:nth-child(1):hover{
+    transform: scale(1.2);
+}
+
+.about-me__text:nth-child(2):hover{
+    transform: scaleX(1.2);
+}
+
+.about-me__text:nth-child(3):hover{
+    transform: scaleY(3);
+}
+
+
 .container__title.about{
     margin: 0 0 28px 0;
+    transition: all 0.3s;
+}
+
+.container__title.about:hover{
+    transform: translateY(-10px);
 }
 
 .container__text-box{
