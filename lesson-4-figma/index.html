@@ -1,211 +1,258 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./style/main.css">
 </head>
+
 <body>
     <div class="page-wrapper">
-        <header class="header">
-            <div class="container header-container">
-                <!-- MENU -->
-                <nav class="header__menu">
-                    <ul class="header__menu-list">
-                        <li class="header__menu-item">
-                            <a href="#home" class="header__menu-title">
-                                Home
-                            </a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="#about-me" class="header__menu-title">
-                                About me
-                            </a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="#skills" class="header__menu-title">
-                                Skills
-                            </a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="#portfolio" class="header__menu-title">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="#contacts" class="header__menu-title">
-                                Contacts
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- MENU END -->
-            </div>
+        <!--HEADER-->
+        <header id="home" class="header">
+            <!--MENU-->
+            <nav class="header__nav">
+                <ul class="header__nav-menu">
+                    <li class="header__nav-item">
+                        <a href="#home" class="header__nav-title">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#about-me" class="header__nav-title">
+                            About me
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#skills" class="header__nav-title">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#portfolio" class="header__nav-title">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#contacts" class="header__nav-title">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!--MENU END-->
         </header>
-        <!-- MAIN SCREEN -->
-        <section id="home" class="section main-screen">
+        <!--MAIN SCREEN-->
+        <section class="main-screen">
             <div class="container main-screen__container">
                 <h1 class="main-screen__title">
                     Denis Novik
                 </h1>
-                <div class="main-screen__img"></div>
+                <div class="main-screen__img">
+                    <figure class="main-screen__bg">
+                    </figure>
+                </div>
             </div>
         </section>
-        <!-- ABOUT -->
-        <section id="about-me" class="section about">
-            <div class="contaner about__container">
-                <h2 class="container__title about">
+        <!--ABOUT ME-->
+        <section id="about-me" class="section about-me">
+            <div class="container about-me__container">
+                <h2 class="container__title about-me__title">
                     About me
                 </h2>
-                <div class="container__text-box">
-                    <p class="container__text about-me__text">
-                        <span class="container__text-line">Hi, I'm Denis – UX/UI designer from Minsk.</span>
-                        <span class="container__text-line">I'm interested in design and everything connected with it.</span>
+                <div class="container__text about-me__text">
+                    <p class="container__p about-me__p">
+                        <span class="container__line">
+                            Hi, I'm Denis – UX/UI designer from Minsk.
+                        </span>
+                        <span class="container__line">
+                            I'm interested in design and everything connected with it.
+                        </span>
                     </p>
-                    <p class="container__text about-me__text">
-                        <span class="container__text-line">I'm studying at courses "Web and mobile design</span>
-                        <span class="container__text-line">interfaces" in IT-Academy.</span>
+                    <p class="container__p about-me__p">
+                        <span class="container__line">
+                            I'm studying at courses "Web and mobile design
+                        </span>
+                        <span class="container__line">
+                            interfaces" in IT-Academy.
+                        </span>
                     </p>
-                    <p class="container__text about-me__text">
-                        <span class="container__text-line">Ready to implement excellent projects</span>
-                        <span class="container__text-line">with wonderful people.</span>
+                    <p class="container__p about-me__p">
+                        <span class="container__line">
+                            Ready to implement excellent projects
+                        </span>
+                        <span class="container__line">
+                            with wonderful people.
+                        </span>
                     </p>
                 </div>
             </div>
         </section>
-        <!-- SKILLS -->
+        <!--SKILLS-->
         <section id="skills" class="section skills">
-            <div class="container skills-container">
-                <h2 class="container__title">
+            <div class="container skills__container">
+                <h2 class="container__title skills__title">
                     Skills
                 </h2>
-                <p class="container__text skills">
+                <p class="container__text skills__text">
                     I work in such programs as
                 </p>
+            </div>
+            <!--Skills Rate-->
+            <div class="container skills__programs">
                 <div class="skills__box">
-                    <!-- Photoshop -->
-                    <div class="skills__program">
-                        <div class="skills__program-pic photoshop"></div>
-                        <div class="skills__program-text">
-                            <p class="skills__program-title">
-                                Adobe Photoshop
-                            </p>
-                        </div>
-                        <div class="skills__program-rate">
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star grey"></div>
-                        </div>
+                    <img src="./img/pic-ps.svg" alt="Adobe Photoshop" class="skills__img">
+                    <p class="skills__grey-text">
+                        <span class="container__line">Adobe</span>
+                        <span class="container__line">Photoshop</span>
+                    </p>
+                    <div class="skills__rate">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star grey" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
                     </div>
-                    <!-- Illustrator -->
-                    <div class="skills__program">
-                        <div class="skills__program-pic illustrator"></div>
-                        <div class="skills__program-text">
-                            <p class="skills__program-title">
-                                Adobe Illustrator
-                            </p>
-                        </div>
-                        <div class="skills__program-rate">
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star grey"></div>
-                        </div>
+                </div>
+                <div class="skills__box">
+                    <img src="./img/pic-ai.svg" alt="Adobe Illustrator" class="skills__img">
+                    <p class="skills__grey-text">
+                        <span class="container__line">Adobe</span>
+                        <span class="container__line">Illustrator</span>
+                    </p>
+                    <div class="skills__rate">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star grey" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star grey" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
                     </div>
-                    <!-- After Effects -->
-                    <div class="skills__program">
-                        <div class="skills__program-pic after-effects"></div>
-                        <div class="skills__program-text">
-                            <p class="skills__program-title">
-                                Adobe After Effects
-                            </p>
-                        </div>
-                        <div class="skills__program-rate">
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star grey"></div>
-                        </div>
+                </div>
+                <div class="skills__box">
+                    <img src="./img/pic-ae.svg" alt="Adobe After Effects" class="skills__img">
+                    <p class="skills__grey-text">
+                        <span class="container__line">Adobe</span>
+                        <span class="container__line">After Effects</span>
+                    </p>
+                    <div class="skills__rate">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star grey" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
                     </div>
-                    <!-- Figma -->
-                    <div class="skills__program">
-                        <div class="skills__program-pic figma"></div>
-                        <div class="skills__program-text">
-                            <p class="skills__program-title">
-                                Figma
-                            </p>
-                        </div>
-                        <div class="skills__program-rate">
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star black"></div>
-                            <div class="skills__program-star grey"></div>
-                        </div>
+                </div>
+                <div class="skills__box">
+                    <img src="./img/pic-fig.svg" alt="Figma" class="skills__img">
+                    <p class="skills__grey-text">
+                        <span class="container__line">Figma</span>
+                    </p>
+                    <div class="skills__rate">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="star grey" d="M10.0853 0.85958C10.3851 -0.0606967 11.687 -0.0606959 11.9869 0.859581L13.738 6.23398C13.8721 6.64561 14.2559 6.92418 14.6888 6.92418H20.3495C21.3189 6.92418 21.7213 8.16521 20.9363 8.73398L16.3614 12.0486C16.0099 12.3033 15.8629 12.7555 15.9973 13.1682L17.7459 18.5349C18.0459 19.4557 16.9926 20.2227 16.2084 19.6544L11.6228 16.3321C11.2728 16.0784 10.7994 16.0784 10.4494 16.3321L5.86382 19.6544C5.07956 20.2227 4.02627 19.4557 4.3263 18.5348L6.07487 13.1682C6.20932 12.7555 6.06224 12.3033 5.71078 12.0486L1.13591 8.73398C0.350903 8.16521 0.753233 6.92418 1.72263 6.92418H7.38338C7.81631 6.92418 8.20007 6.64561 8.33419 6.23398L10.0853 0.85958Z" fill="#070707"/>
+                        </svg>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- PORTFOLIO -->
+        <!--PORFOLIO-->
         <section id="portfolio" class="section portfolio">
-            <div class="container portfolio-container">
-                <h2 class="container__title portfolio">
+            <div class="container portfolio__container">
+                <h2 class="section__title portfolio__title">
                     Portfolio
                 </h2>
-                <div class="portfolio__box">
-                    <div class="portfolio__img woman"></div>
-                    <p class="container__text portfolio__text">
-                        Online fashion store - Homepage
-                    </p>
-                </div>
-                <div class="portfolio__box">
-                    <div class="portfolio__img reebok"></div>
-                    <p class="container__text portfolio__text">
-                        Reebok Store - Concept
-                    </p>
-                </div>
-                <div class="portfolio__box">
-                    <div class="portfolio__img camera"></div>
-                    <p class="container__text portfolio__text">
-                        Braun Landing Page - Concept
-                    </p>
-                </div>
+                <img src="./img/pic-portfolio-1.png" alt="portfolio-1" class="portfolio__img">
+                <p class="container__text portfolio__text">
+                    Online fashion store - Homepage
+                </p>
+                <img src="./img/pic-portfolio-2.png" alt="portfolio-2" class="portfolio__img">
+                <p class="container__text portfolio__text">
+                    Reebok Store - Concept
+                </p>
+                <img src="./img/pic-portfolio-3.png" alt="portfolio-3" class="portfolio__img">
+                <p class="container__text portfolio__text">
+                    Braun Landing Page - Concept
+                </p>
             </div>
         </section>
-        <!-- FOOTER -->
+        <!--FOOTER-->
         <footer id="contacts" class="footer">
-            <div class="container footer-container">
-                <h2 class="container__title contacts">
-                    Contacts
-                </h2>
-                <p class="container__text footer">
-                    <span class="container__text-line">Want to know more or just chat?</span>
-                    <span class="contailer__text-line">You are welcome!</span>
-                </p>
-                <div class="footer__button">
-                    <a href="" class="footer__button-text">
-                        Send message
-                    </a>
-                </div>
-                <div class="footer__social">
-                    <div class="footer__social-icon linkedin"></div>
-                    <div class="footer__social-icon instagram"></div>
-                    <div class="footer__social-icon behance"></div>
-                    <div class="footer__social-icon dribbble"></div>
-                </div>
-                <p class="footer__small-text">
-                    <span class="container__text-line">Like me on</span>
-                    <span class="container__text-line">LinkedIn, Instagram, Behance, Dribble</span>
-                </p>
+            <h2 class="container__title footer__title">
+                Contacts
+            </h2>
+            <p class="container__text footer__text">
+                <span class="container__line">
+                    Want to know more or just chat?
+                </span>
+                <span class="container__line">
+                    You are welcome!
+                </span>
+            </p>
+            <a href="" class="footer__button">
+                Send message
+            </a>
+            <div class="footer__social">
+                <img src="./img/pic-in.svg" alt="linkedin" class="footer__icon linkedin__icon">
+                <img src="./img/pic-inst.svg" alt="instagram" class="footer__icon instagram__icon">
+                <img src="./img/pic-be.svg" alt="behance" class="footer__icon behance__icon">
+                <img src="./img/pic-dribbble.svg" alt="dribbble" class="footer__icon dribbble__icon">
             </div>
+            <p class="footer__small-text">
+                <span class="container__line">
+                    Like me on
+                </span>
+                <span class="container__line">
+                    LinkedIn, Instagram, Behance, Dribble
+                </span>
+            </p>
         </footer>
     </div>
 </body>
+
 </html>
