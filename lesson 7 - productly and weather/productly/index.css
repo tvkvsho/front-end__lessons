@@ -185,6 +185,8 @@ h2{
     margin: 0 8px 0 0;
 }
 
+/* TOOLS */
+
 .tools__container{
     flex-direction: column;
     align-items: center;
@@ -215,8 +217,8 @@ h2{
 
 .tools__subtitle{
     font-family: var(--main-font);
-    color: var(--title-color)
-    font-weight: 600;
+    color: var(--title-color);
+    font-we: 600;
     font-size: 22px;
     line-height: 33px;
 }
