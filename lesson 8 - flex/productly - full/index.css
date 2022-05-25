@@ -218,7 +218,7 @@ h2{
 .tools__subtitle{
     font-family: var(--main-font);
     color: var(--title-color);
-    font-we: 600;
+    font-weight: 600;
     font-size: 22px;
     line-height: 33px;
 }

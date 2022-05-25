@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    transition: all .1s ease-in;
 }
 
 ul{
@@ -128,46 +129,54 @@ ul{
     padding: 16px 0px;
 }
 
-.lisbon{
+.weather__city:nth-child(1){
     background: #3399CC;
 }
 
-.paris{
+.weather__city:nth-child(2){
     background: #33CCCC;
 }
 
-.belgrade{
+.weather__city:nth-child(3){
     background: #996699;
 }
 
-.venice{
+.weather__city:nth-child(4){
     background: #C24747;
 }
 
-.telaviv{
+.weather__city:nth-child(5){
     background: #E2674A;
 }
 
-.kyiv{
+.weather__city:nth-child(6){
     background: #FFCC66;
 }
 
-.amsterdam{
+.weather__city:nth-child(7){
     background: #99CC99;
 }
 
-.tokyo{
+.weather__city:nth-child(8){
     background: #669999;
 }
 
-.sanfrancisco{
+.weather__city:nth-child(9){
     background: #CC6699;
 }
 
-.sydney{
+.weather__city:nth-child(10){
     background: #339966;
 }
 
-.newdelhi{
+.weather__city:nth-child(11){
     background: #666699;
+}
+
+.weather__city:hover .weather__city{
+    background: red;
+}
+
+.main-screen__weather:hover .weather__city:not(:hover){
+    opacity: 50%;
 }
