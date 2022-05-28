@@ -173,10 +173,6 @@ ul{
     background: #666699;
 }
 
-.weather__city:hover .weather__city{
-    background: red;
-}
-
 .main-screen__weather:hover .weather__city:not(:hover){
     opacity: 50%;
 }
