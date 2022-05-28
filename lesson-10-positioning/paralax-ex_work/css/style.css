@@ -94,6 +94,7 @@ img {
     top: 5vw;
     left: 37vw;
 }
+
 .header__img-doodle-2{
     z-index: 2;
     position: absolute;
@@ -101,6 +102,7 @@ img {
     top: 20vw;
     left: 45vw;
 }
+
 .header__img-doodle-3{
     z-index: 2;
     position: absolute;
