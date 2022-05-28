@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0 320px;
+}
+
+.header__img-container {
+    width: 50%;
+}
+
+.header__content {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__title {
+    font-size: 36px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.header__description {
+    margin-bottom: 32px;
+}
+
+.header__button {
+    max-width: 180px;
+    background-color: blueviolet;
+    border: none;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.header__button:hover {
+    transform: scale(1.1);
+}
+
+.header__img-arrow {
+    position: absolute;
+    width: 11vw;
+    left: 65vw;
+    top: 15vw;
+    z-index: 1;
+}
+
+.header__img-planet {
+    position: absolute;
+    width: 52vw;
+}
+
+.header__img-doodle-1{
+    z-index: 2;
+    position: absolute;
+    width: 15vw;
+    top: 5vw;
+    left: 37vw;
+}
+.header__img-doodle-2{
+    z-index: 2;
+    position: absolute;
+    width: 15vw;
+    top: 20vw;
+    left: 45vw;
+}
+.header__img-doodle-3{
+    z-index: 2;
+    position: absolute;
+    width: 15vw;
+    top: 38vw;
+    left: 15vw;
+}
