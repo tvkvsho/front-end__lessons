@@ -395,6 +395,7 @@ section{
 /* FOOTER */
 
 .footer__container{
+    display: flex;
     max-width: 1109px;
     border-top: 1px solid var(--border-light-blue);
     align-items: flex-start;
@@ -419,6 +420,11 @@ section{
 .footer__logo{
     padding: 102px 0px 0px 0px;
     margin: 0 140px 0 0;
+}
+
+.footer__form{
+    display: block;
+    width: 18vw;
 }
 
 .form__field{
