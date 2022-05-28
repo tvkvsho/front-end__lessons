@@ -49,6 +49,26 @@ h2{
     text-align: center;
 }
 
+.container__text{
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.container__small-title{
+    font-family: var(--main-font);
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+section{
+    display: flex;
+}
+
 /* ------- LOCAL STYLES ------- */
 
 /* HEADER STYLES */
@@ -187,6 +207,10 @@ h2{
 
 /* TOOLS */
 
+.tools{
+    margin: 0 0 210px 0;
+}
+
 .tools__container{
     flex-direction: column;
     align-items: center;
@@ -248,3 +272,174 @@ h2{
     margin: 0 30px 0 0;
 }
 
+
+/* PROFESSIONALS */
+
+.professionals{
+    margin: 0 0 100px 0;
+}
+
+.professionals__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.professionals__above{
+    padding: 26px 0 0 0;
+    margin: 0 0 3px 0;
+}
+
+.professionals__title{
+    text-align: left;
+    margin: 0 0 22px 0;
+}
+
+.professionals__below{
+    margin: 0 0 30px 0;
+}
+
+.professionals__text{
+    max-width: 500px;
+}
+
+.professionals__small-title{
+    margin: 0 0 12px 0;
+}
+
+.professionals__item{
+    margin: 0 0 25px 0;
+}
+
+.professionals__img{
+    max-height: 573px;
+}
+
+/* MANAGERS */
+
+.managers{
+    margin: 0 0 100px 0;
+}
+
+.managers__box{
+    width: 50%;
+}
+
+.managers__box-right{
+    padding: 0 0 0 100px;
+}
+
+.managers__above{
+    padding: 30px 0 0 0;
+}
+
+.managers__title{
+    text-align: left;
+    margin: 0 0 22px 0;
+}
+
+.managers__img{
+    max-height: 520px;
+}
+
+.managers__item{
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+    margin: 0 0 30px 0;
+}
+
+.managers__below{
+    margin: 0 0 30px 0;
+}
+
+.managers__item-icon{
+    max-width: 35px;
+    max-height: 35px;
+    margin: 0 35px 0 0;
+}
+
+/* MARKETERS */
+
+.marketers{
+    margin: 0 0 146px 0;
+}
+
+.marketers__box{
+    width: 50%;
+}
+
+.marketers__title{
+    text-align: left;
+    margin: 0 0 22px 0;
+}
+
+.marketers__below{
+    margin: 0 0 33px 0;
+    max-width: 480px;
+}
+
+.marketers__small-title{
+    margin: 0 0 12px 0;
+}
+
+.marketers__item{
+    margin: 0 0 25px 0;
+    max-width: 480px;
+}
+
+.marketers__img{
+    max-height: 609px;
+}
+
+/* FOOTER */
+
+.footer__container{
+    max-width: 1109px;
+    border-top: 1px solid var(--border-light-blue);
+    align-items: flex-start;
+}
+
+.footer__links{
+    columns: 2;
+    column-gap: 100px;
+    list-style: none;
+    padding: 167px 0px 0px 0px;
+    margin: 0 81px 83px 0;
+}
+
+.footer__link-title{
+    font-family: var(--main-font);
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.footer__logo{
+    padding: 102px 0px 0px 0px;
+    margin: 0 140px 0 0;
+}
+
+.form__field{
+    width: 295px;
+    height: 48px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: var(--border-light-blue);
+    margin: 193px 0 21px 0;
+    padding: 0px 15px;
+    font-family: var(--main-font);
+}
+
+.form__button{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--button-text-white);
+    padding: 8px 15px;
+    background: var(--button-orange);
+    border: none;
+    border-radius: 4px;
+}
