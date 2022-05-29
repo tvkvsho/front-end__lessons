@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONSTRUKT</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--HEADER-->
+        <header class="header">
+            <div class="container header__container">
+                <nav class="header__nav">
+                    <a class="header__nav-lang">eng</a>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-link">
+                                documentation
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <span class="header__nav-divider">/</span>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-link">
+                                who's using
+                            </a>
+                        </li>
+                    </ul>
+                    <img src="./img/company-logo-black.svg" alt="" class="header__nav-logo">
+                </nav>
+            </div>
+        </header>
+        <!--ASIDE-->
+        <div class="container main__container">
+            <aside class="aside">
+                <ul class="aside__menu">
+                    <li class="aside__menu-item">
+                        <a href="#1" class="aside__menu-title">
+                            introduction
+                        </a>
+                    </li>
+                    <li class="aside__menu-item">
+                        <a href="#2" class="aside__menu-title">
+                            core components
+                        </a>
+                    </li>
+                    <li class="aside__menu-item">
+                        <a href="#3" class="aside__menu-title">
+                            react fundamentals
+                        </a>
+                    </li>
+                    <li class="aside__menu-item">
+                        <a href="#4" class="aside__menu-title">
+                            handling text input
+                        </a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </aside>
+            <!--MAIN-->
+            <main class="main">
+                <section id="1">
+                        <img src="./img/divider.svg" alt="divider" class="section__img">
+                        <h2 class="section__title">
+                            introduction <sup>Chapter 1</sup>
+                        </h2>
+                    <p class="section__text">
+                        Welcome to the very start of your React Native journey! If you're looking for environment setup
+                        instructions, they've moved to their own section. Continue reading for an introduction to the
+                        documentation, Native Components, React, and more!
+                    </p>
+                </section>
+                <section id="2">
+                    <div class="section__sticky-box">
+                        <img src="./img/divider.svg" alt="divider" class="section__img">
+                        <h2 class="section__title">
+                            core components <sup>Chapter 2</sup>
+                        </h2>
+                    </div>
+                    <p class="section__text">React Native is an open source framework for building Android and iOS
+                        applications using React and the app platform’s native capabiles. With React Native, you use
+                        JavaScript to access your platform’s APIs as well as to describe the appearance and behavior of
+                        your UI using React components: bundles of reusable, nestable code. You can learn more about
+                        React in the next section. But first, let’s cover how components work in React Native.</p>
+                </section>
+                <section id="3">
+                    <img src="./img/divider.svg" alt="divider" class="section__img">
+                    <h2 class="section__title">
+                        react fundamentals <sup>Chapter 3</sup>
+                    </h2>
+                    <p class="section__text">
+                        React Native runs on React, a popular open source library for building user interfaces with
+                        JavaScript. To make the most of React Native, it helps to understand React itself. This section
+                        can get you started or can serve as a refresher course.
+                    </p>
+                    <p class="section__text">
+                        We’re going to cover the core concepts behind React:
+                    </p>
+                    <p class="section__text">
+                        + components. The rest of this introduction to React uses cats in its examples: friendly,
+                        approachable creatures that need names and a cafe to work in.
+                    </p>
+                    <p class="section__text">
+                        + JSX. React and React Native use JSX, a syntax that lets you write elements inside JavaScript
+                        like so: <Text>Hello, I am your cat!</Text>.
+                    </p>
+                    <p class="section__text">
+                        The React docs have a comprehensive guide to JSX you can refer to learn even more. Because JSX
+                        is JavaScript, you can use variables inside it. Here you are declaring a name for the cat, name,
+                        and embedding it with curly braces inside <Text></Text>
+                    </p>
+                    <p class="section__text">
+                        + props. Props is short for “properties”.
+                    </p>
+                    <p class="section__text">
+                        + state. While you can think of props as arguments you use to configure how components render,
+                        state is like a component’s personal data storage. State is useful for handling data that
+                        changes over time or that comes from user interaction. State gives your components memory!
+                    </p>
+                </section>
+                <section id="4">
+                    <img src="./img/divider.svg" alt="divider" class="section__img">
+                    <h2 class="section__title">
+                        handling text input <sup>Chapter 4</sup>
+                    </h2>
+                    <p class="section__text">
+                        TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop
+                        that takes a function to be called every time the text changed, and an onSubmitEditing prop that
+                        takes a function to be called when the text is submitted.
+                    </p>
+                    <p class="section__text">
+                        For example, let's say that as the user types, you're translating their words into a different
+                        language. In this new language, every single word is written the same way: 🍕. So the sentence
+                        "Hello there Bob" would be translated as "🍕 🍕".
+                    </p>
+                </section>
+            </main>
+            <img src="./img/bg-picture.svg" alt="cover img" class="cover__img">
+        </div>
+        <!--FOOTER-->
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+
+</html>
