@@ -158,3 +158,15 @@ img.cover__img {
     right: 0;
     z-index: -1;
 }
+
+.whos-using__flip-cards{
+    position: relative;
+}
+
+.box.whos-using__cards-front {
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-rows: 180px 180px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
